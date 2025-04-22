@@ -34,5 +34,8 @@ DIO_ErrorStatus DIO_enumSetPortValue     ( u8 Copy_u8Port , u8 Copy_u8Value )   
 DIO_ErrorStatus DIO_enumSetPinDirection  ( u8 Copy_u8Port , u8 Copy_u8Pin , u8 Copy_u8Direction );
 DIO_ErrorStatus DIO_enumSetPintValue     ( u8 Copy_u8Port , u8 Copy_u8Pin , u8 Copy_u8Value )    ;
 
+DIO_ErrorStatus DIO_enumGetPortValue     ( u8 Copy_u8Port , u8 * Copy_u8ptrData );
+DIO_ErrorStatus DIO_enumGetPinValue      ( u8 Copy_u8Port , u8 Copy_u8Pin, u8 * Copy_u8ptrData );
+
 
 #endif
