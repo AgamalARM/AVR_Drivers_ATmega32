@@ -12,6 +12,7 @@ typedef struct{
 	
 }SSD_Type ;
 
+void SSD_voidInit       ( SSD_Type Copy_StructConfig )                  ;
 void SSD_voidSendNumber ( SSD_Type Copy_StructConfig, u8 Copy_u8Number) ;
 void SSD_voidEnable     ( SSD_Type Copy_StructConfig )                  ;
 void SSD_voidDisable    ( SSD_Type Copy_StructConfig )                  ;
